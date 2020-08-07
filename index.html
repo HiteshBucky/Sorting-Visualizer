@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script> if (typeof (Proxy) === 'undefined') alert('The browser is not supported, please use chrome or firefox');</script>
+</head>
+
+<body>
+	<div class="header" style="width: 100%;">
+	    <div class="head">
+	        <div class="name" style="color: white">Sorting Visualizer</div><br><hr>
+	    </div>
+	    
+	    <div class="section2 group2 array-inputs" style="color: white;">
+
+	        <div class="col2 span_1_of_3" style=" text-align: center;">
+	            <h3 style="font-weight:bold; color: white">Size of the array:</h3>
+	            <input id="a_size" type="range" min=20 max=150 step=1 value=80 style="width: 60%">
+	        </div>
+
+	        <div class="col2 span_1_of_3" style=" text-align: center; vertical-align: center">
+	            <button id="a_generate" class="btn_Gene" style="width: 100%;color: white; background-color: grey">Generate New Array!</button>
+	        </div>
+
+	        <div class="col2 span_1_of_3" style=" text-align: center;">
+	            <h3 style="font-weight:bold; color: white">Speed of the algorithm:</h3>
+	            <input id="a_speed" type="range" min=1 max=5 step=1 value=4 style="width: 60%">
+	        </div>
+
+	    </div>
+    	<br>
+	</div>
+	 
+    <div class="main" style="position: static;">
+        <div class="option">
+            <div class="row wrapper algos">
+            	<button>Bubble</button>
+                <button>Selection</button>
+                <button>Insertion</button>
+                <button>Merge</button>
+                <button>Quick</button>
+                <button>Heap</button>
+            </div>
+        </div>
+
+        <section >
+
+            <div id="Info_Cont1">
+                <p>This is First Container</p>
+            </div>
+
+            <div id="array_container">
+                
+            </div>
+
+            <div id="Info_Cont2">
+                <p>This is Second Container</p>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="./scripts/main.js"></script>   
+    <script src="./scripts/visualizations.js"></script> 
+
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+
+</body>
+
+</html>
