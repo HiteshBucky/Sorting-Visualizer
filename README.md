@@ -1,7 +1,7 @@
 # This is Sorting-Visualizer
 # And these r some changes made by Amit
 #third Commit
-#thirtd co
+#Final
 <h1 align="center"> Sorting-Visualizer  </h1>
 
 ## 🚩 &nbsp; Main Features
