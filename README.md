@@ -1,3 +1,7 @@
+# This is Sorting-Visualizer
+# And these r some changes made by Amit
+#third Commit
+#Final
 <h1 align="center"> Sorting-Visualizer  </h1>
 
 ## 🚩 &nbsp; Main Features
@@ -51,3 +55,5 @@ Happy Coding :)
 #
 
 ![](images/after.png)
+
+>>>>>>> cece86369ba4fe144a633e01e693d7d5e0b3ce84
